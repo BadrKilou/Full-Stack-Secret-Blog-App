@@ -1,0 +1,17 @@
+.filter-Form{
+    max-width: 400px;
+    .filter-input{
+        width: 300px;
+            padding: 12px;
+            margin: 12px;
+            border: 1px solid gray;
+            outline: none;
+    }
+}
+
+
+@media (max-width: 760px){
+    .filter-input{
+        width: 100px;
+    }
+}
